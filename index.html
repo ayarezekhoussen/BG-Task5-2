@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./aseest/css/style.css">
+    </head>
+    <body>
+        <section>
+        <h1>Unit Conversion Program</h1>
+        <input class="input" type="number" id="value" placeholder="Put the value" />
+        <div class="contenar">
+            <div class="from">
+                <label for="fromUnit">From</label>
+                <select id="fromUnit">
+                    <option >Select the firste unit</option>
+                    <option value="km">km</option>
+                    <option value="m">m</option>
+                    <option value="mm">mm</option>
+                </select>
+            </div>
+            <i class="fa-solid fa-arrow-right-arrow-left" style="color: #4a90e2; font-size:x-large; padding-top: 20px;"></i>
+            <div class="to">
+                <label for="toUnit">To</label>
+                <select id="toUnit">
+                    <option>Select the second unit</option>
+                    <option value="km">km</option>
+                    <option value="m">m</option>
+                    <option value="mm">mm</option>
+                </select>
+            </div>
+        </div>
+        <div class="box">
+            <button onclick="convert()">Conversion</button>
+            <div class="result-box">
+                <h2>The Result :</h2>
+                <span id="result"></span>
+            </div>
+        </div>
+
+       
+       
+    </section>
+
+        <script src="./aseest/java/script.js"></script>
+    </body>
+</html>
